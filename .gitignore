@@ -7,4 +7,4 @@
 /node_modules
 .DS_Store
 
-.localhero_key
+.localhero_key*

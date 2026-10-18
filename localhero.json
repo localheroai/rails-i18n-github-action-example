@@ -1,10 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "projectId": "your-project-id",
+  "projectId": "rails-i18n-github-action-example",
   "sourceLocale": "en",
-  "outputLocales": ["sv", "pl", "de"],
+  "outputLocales": [
+    "sv",
+    "pl",
+    "de"
+  ],
   "translationFiles": {
-    "paths": ["config/locales/"],
-    "pattern": "**/*.{yml,yaml}"
-  }
+    "paths": [
+      "config/locales/"
+    ],
+    "pattern": "**/*.{yml,yaml}",
+    "ignore": []
+  },
+  "lastSyncedAt": "2026-10-18T14:31:01.301Z"
 }

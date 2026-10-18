@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="<%= I18n.locale %>">
+  <head>
+    <title><%= content_for(:title) %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1f2328; }
+      nav a { margin-right: 0.75rem; }
+      nav a[aria-current] { font-weight: 600; text-decoration: none; color: inherit; }
+      section { border-top: 1px solid #d0d7de; padding: 1rem 0; }
+      ul { list-style: none; padding: 0; }
+      li { display: flex; gap: 0.75rem; align-items: center; padding: 0.25rem 0; }
+      li span { color: #59636e; margin-right: auto; }
+    </style>
+  </head>
+
+  <body>
+    <nav aria-label="Language">
+      <% I18n.available_locales.each do |locale| %>
+        <%= link_to language_name(locale), root_path(locale: locale), lang: locale, "aria-current": ("page" if locale == I18n.locale) %>
+      <% end %>
+    </nav>
+
+    <%= yield %>
+  </body>
+</html>

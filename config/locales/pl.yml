@@ -1,0 +1,26 @@
+pl:
+  team_settings:
+    show:
+      title: "Ustawienia zespołu"
+      signed_in_as: "Zalogowano jako %{name}"
+      name_label: "Nazwa zespołu"
+      save: "Zapisz zmiany"
+      members_heading: "Członkowie"
+      member_count:
+        one: "%{count} osoba w zespole"
+        few: "%{count} osoby w zespole"
+        many: "%{count} osób w zespole"
+        other: "%{count} osoby w zespole"
+      seats_left:
+        one: "Zostało %{count} miejsce w Twoim planie"
+        few: "Zostały %{count} miejsca w Twoim planie"
+        many: "Zostało %{count} miejsc w Twoim planie"
+        other: "Zostało %{count} miejsca w Twoim planie"
+      roles:
+        admin: "Administrator"
+        member: "Członek"
+      remove: "Usuń"
+      invite: "Zaproś osoby"
+      leave_heading: "Opuść zespół"
+      leave_body: "Stracisz dostęp do wszystkich projektów w zespole %{team}."
+      leave_button: "Opuść zespół %{team}"

@@ -1,0 +1,22 @@
+sv:
+  team_settings:
+    show:
+      title: "Teaminställningar"
+      signed_in_as: "Inloggad som %{name}"
+      name_label: "Teamnamn"
+      save: "Spara ändringar"
+      members_heading: "Medlemmar"
+      member_count:
+        one: "%{count} person i teamet"
+        other: "%{count} personer i teamet"
+      seats_left:
+        one: "%{count} plats kvar i ditt abonnemang"
+        other: "%{count} platser kvar i ditt abonnemang"
+      roles:
+        admin: "Administratör"
+        member: "Medlem"
+      remove: "Ta bort"
+      invite: "Bjud in personer"
+      leave_heading: "Lämna teamet"
+      leave_body: "Du förlorar åtkomsten till alla projekt i %{team}."
+      leave_button: "Lämna %{team}"

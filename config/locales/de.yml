@@ -1,0 +1,22 @@
+de:
+  team_settings:
+    show:
+      title: "Teameinstellungen"
+      signed_in_as: "Angemeldet als %{name}"
+      name_label: "Teamname"
+      save: "Änderungen speichern"
+      members_heading: "Mitglieder"
+      member_count:
+        one: "%{count} Person im Team"
+        other: "%{count} Personen im Team"
+      seats_left:
+        one: "Noch %{count} Platz in Ihrem Tarif"
+        other: "Noch %{count} Plätze in Ihrem Tarif"
+      roles:
+        admin: "Administrator"
+        member: "Mitglied"
+      remove: "Entfernen"
+      invite: "Personen einladen"
+      leave_heading: "Team verlassen"
+      leave_body: "Sie verlieren den Zugriff auf alle Projekte in %{team}."
+      leave_button: "%{team} verlassen"

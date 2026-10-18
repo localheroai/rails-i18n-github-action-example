@@ -1,0 +1,36 @@
+<% content_for :title, t(".title") %>
+
+<h1><%= t(".title") %></h1>
+<p><%= t(".signed_in_as", name: @current_user.name) %></p>
+
+<section>
+  <%= label_tag :team_name, t(".name_label") %>
+  <%= text_field_tag :team_name, @team.name %>
+  <button type="button"><%= t(".save") %></button>
+</section>
+
+<section>
+  <h2><%= t(".members_heading") %></h2>
+  <p><%= t(".member_count", count: @team.members.size) %></p>
+  <p><%= t(".seats_left", count: @team.seats_left) %></p>
+
+  <ul>
+    <% @team.members.each do |member| %>
+      <li>
+        <%= member.name %>
+        <span><%= t(".roles.#{member.role}") %></span>
+        <% unless member == @current_user %>
+          <button type="button"><%= t(".remove") %></button>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+
+  <button type="button"><%= t(".invite") %></button>
+</section>
+
+<section>
+  <h2><%= t(".leave_heading") %></h2>
+  <p><%= t(".leave_body", team: @team.name) %></p>
+  <button type="button"><%= t(".leave_button", team: @team.name) %></button>
+</section>

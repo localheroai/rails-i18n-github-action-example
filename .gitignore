@@ -6,3 +6,5 @@
 !/tmp/.keep
 /node_modules
 .DS_Store
+
+.localhero_key

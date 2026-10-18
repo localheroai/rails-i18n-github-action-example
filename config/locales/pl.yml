@@ -24,3 +24,9 @@ pl:
       leave_heading: "Opuść zespół"
       leave_body: "Stracisz dostęp do wszystkich projektów w zespole %{team}."
       leave_button: "Opuść zespół %{team}"
+      pending_invites:
+        one: "%{count} zaproszenie oczekujące na odpowiedź"
+        few: "%{count} zaproszenia oczekujące na odpowiedź"
+        many: "%{count} zaproszeń oczekujących na odpowiedź"
+        other: "%{count} zaproszenia oczekującego na odpowiedź"
+      transfer_ownership: Przekazać własność na rzecz %{name}

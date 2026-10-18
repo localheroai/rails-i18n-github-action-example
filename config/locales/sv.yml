@@ -20,3 +20,7 @@ sv:
       leave_heading: "Lämna teamet"
       leave_body: "Du förlorar åtkomsten till alla projekt i %{team}."
       leave_button: "Lämna %{team}"
+      pending_invites:
+        one: "%{count} inbjudan väntar på svar"
+        other: "%{count} inbjudningar väntar på svar"
+      transfer_ownership: Överför ägarskapet till %{name}

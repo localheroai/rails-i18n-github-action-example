@@ -20,3 +20,7 @@ de:
       leave_heading: "Team verlassen"
       leave_body: "Sie verlieren den Zugriff auf alle Projekte in %{team}."
       leave_button: "%{team} verlassen"
+      pending_invites:
+        one: "%{count} Einladung wartet auf eine Antwort"
+        other: "%{count} Einladungen warten auf eine Antwort"
+      transfer_ownership: Inhaberschaft an %{name} übertragen

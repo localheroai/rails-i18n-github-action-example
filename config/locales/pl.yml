@@ -29,4 +29,4 @@ pl:
         few: "%{count} zaproszenia oczekujące na odpowiedź"
         many: "%{count} zaproszeń oczekujących na odpowiedź"
         other: "%{count} zaproszenia oczekującego na odpowiedź"
-      transfer_ownership: Przekazać własność na rzecz %{name}
+      transfer_ownership: "Przekaż własność: %{name}"

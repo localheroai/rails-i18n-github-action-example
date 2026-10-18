@@ -4,6 +4,7 @@ class TeamSettingsController < ApplicationController
     @team = Team.new(
       name: "Fjord Studio",
       seats: 9,
+      pending_invites: 2,
       members: [
         @current_user,
         Member.new(name: "Tomasz Nowak", role: :member),

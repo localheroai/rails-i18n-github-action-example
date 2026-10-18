@@ -12,10 +12,14 @@ en:
       seats_left:
         one: "%{count} seat left on your plan"
         other: "%{count} seats left on your plan"
+      pending_invites:
+        one: "%{count} invite waiting for a reply"
+        other: "%{count} invites waiting for a reply"
       roles:
         admin: "Admin"
         member: "Member"
       remove: "Remove"
+      transfer_ownership: "Transfer ownership to %{name}"
       invite: "Invite people"
       leave_heading: "Leave team"
       leave_body: "You will lose access to every project in %{team}."

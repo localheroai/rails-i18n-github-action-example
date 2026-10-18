@@ -13,6 +13,7 @@
   <h2><%= t(".members_heading") %></h2>
   <p><%= t(".member_count", count: @team.members.size) %></p>
   <p><%= t(".seats_left", count: @team.seats_left) %></p>
+  <p><%= t(".pending_invites", count: @team.pending_invites) %></p>
 
   <ul>
     <% @team.members.each do |member| %>
@@ -21,6 +22,7 @@
         <span><%= t(".roles.#{member.role}") %></span>
         <% unless member == @current_user %>
           <button type="button"><%= t(".remove") %></button>
+          <button type="button"><%= t(".transfer_ownership", name: member.name) %></button>
         <% end %>
       </li>
     <% end %>
